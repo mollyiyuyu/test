@@ -1,0 +1,23 @@
+.mycard {
+  color: black;
+
+  .title {
+    background: lightgrey;
+    color: blue;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    text-decoration: underline;
+  }
+
+   .body {
+     background: white;
+     width: 100%;
+   }
+
+   .body.closed {
+      transaction: 2s;
+      display:none;
+   }
+ }
+
+

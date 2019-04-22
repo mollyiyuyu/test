@@ -1,0 +1,6 @@
+<div class="mycard">
+  <p class="title" (click)="toggle.emit()">{{title}}</p>
+  <div class="body" [ngClass]="{'closed':!visible}">
+    <ng-content></ng-content>
+  </div>
+</div>
